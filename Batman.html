@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Batman </title>
+    <link rel="stylesheet" href = "darkstyles.css">
+    <link rel="icon" type = "image/x-icon" href="imgs/favicon/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <div class = 'navbar'>
+        <h1>    
+            <a class = "hidden" href="index.html">B</a>atman
+        </h1>
+        <img class = "menuicon" src="imgs/menuicon.png" onclick="toggleMenu()" alt="">
+        <img class = "iconmain" src = "imgs/Batman-Logo.png">
+        
+
+          
+    </div>
+
+
+
+
+
+    <div style="width: 100%; top:10%; left:0%; height:7px; background-color: orange; position: fixed; "></div>
+
+    
+   <div id = "subMenu" class="mainmenu">
+
+        <h2 style="text-align: center;">Batman Hub</h2>
+        <hr> 
+        
+        <ul>
+            <li class = "menulink"><a class = "hidden" href = "index.html"> Bruce Wayne</a></li>
+            <li class = "menulink" ><a class = "hidden" href = "ImageGallery.html"> Image Gallery</a></li>
+
+        </ul>
+
+    </div> 
+
+    <p style="margin-top: 100px;"></p>
+
+    <h2>The alter ego of Bruce Wayne</h2>
+    <p> Batman, the iconic vigilante of Gotham City, stands tall as the enigmatic Dark Knight, embodying the ideals of justice and fearlessness. Born as Bruce Wayne, a wealthy heir to the Wayne family fortune, his life took a dramatic turn after witnessing his parents' tragic murder in the depths of Crime Alley. This event ignited an unyielding desire to fight crime and avenge the innocent, leading him down a path of relentless training and transformation into the caped crusader Gotham deserved.</p>
+
+    <img stlye = "height:20%; object-fit:cover;"src = "imgs/batmanpagemain.jpeg">
+
+    <h2>Becoming the Batman:</h2>
+    <p>In his quest for justice, Bruce sought guidance from the mysterious League of Shadows, mastering various combat techniques and harnessing his fears to become more than just a man. Armed with unparalleled determination, advanced gadgets, and a vast fortune, he returned to Gotham as Batman, an entity that struck fear into the hearts of criminals.</p>
+   <hr>
+    <h2>The Rogue Gallery</h2>
+    <p>Batman faced a myriad of formidable adversaries, forming his legendary rogues' gallery. From the enigmatic and calculating Joker to the seductive yet deadly Poison Ivy, and the relentless mercenary Bane, each adversary tested the Dark Knight's intellect, resilience, and indomitable spirit.</p>
+    <hr>
+    <h2>The Bat-Family:</h2>
+    <p>Though a solitary figure by nature, Batman found solace and strength in an unlikely yet powerful family. Taking orphaned Dick Grayson under his wing, Bruce trained him as the acrobatic crime-fighter Robin. Over the years, Batgirl, Nightwing, Red Hood, and other allies joined his cause, creating the Bat-Family, a team that exemplified unity and hope in the darkest of times.</p>
+    <hr>
+    <h2>Allies and Partnerships:</h2>
+    <p>Outside of Gotham, Batman forged vital alliances with other superheroes in the Justice League, earning their respect and contributing his strategic brilliance to save the world from catastrophic threats.</p>
+    <hr>
+    <h2>The Bat-Signal:</h2>
+    <p>Commissioner James Gordon, a staunch ally, trusted Batman as Gotham's silent guardian. Together, they utilized the iconic Bat-Signal to summon the Dark Knight in times of dire need, reinforcing his unwavering commitment to protecting the innocent and upholding justice.</p>
+    <hr>
+    <h2>Batman's Legacy</h2>
+    <p>Beyond the cowl, Bruce Wayne epitomized philanthropy, using Wayne Enterprises to fund various charitable initiatives. He also served as a beacon of hope, inspiring countless citizens to stand up against injustice and fight for a better Gotham.</p>
+
+    
+</body>
+<script>
+
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+
+        subMenu.classList.toggle("mainmenuopen");
+
+    }
+
+</script>
+
+
+</html>

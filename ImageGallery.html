@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset = "UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel = "stylesheet" href = "darkstyles.css">
+
+
+
+</head>
+
+<body>
+
+
+    <div class = 'navbar'>
+        <h1>    
+            Image Gallery
+        </h1>
+        <img class = "menuicon" src="imgs/menuicon.png" onclick="toggleMenu()" alt="">
+        <img class = "iconmain" src = "imgs/Batman-Logo.png">
+        
+
+          
+    </div>
+
+    <div style="width: 100%; top:10%; left:0%; height:7px; background-color: purple; position: fixed; "></div>
+
+    <div id = "subMenu" class="mainmenu">
+
+        <h2 style="text-align: center;">Batman Hub</h2>
+        <hr> 
+        
+        <ul>
+            <li class = "menulink"><a class = "hidden" href = "index.html"> Bruce Wayne</a></li>
+            <li class = "menulink" ><a class = "hidden" href = "Batman.html"> Batman</a></li>
+
+        </ul>
+
+    </div> 
+
+    <p style="margin-top:100px;"></p>
+    <h2>Batman Images:</h2>
+
+    <div class = "image">
+
+        
+        <img src="imgs/1.jpg" alt="">
+        <img src="imgs/2.jpg" alt="">
+        <img src="imgs/3.jpeg" alt="">
+        <img src="imgs/4.jpeg" alt="">
+        <img src="imgs/5.jpeg" alt="">
+        <img src="imgs/6.jpeg" alt="">
+        <img src="imgs/7.jpeg" alt="">
+        <img src="imgs/8.jpeg" alt="">
+        <img src="imgs/9.jpeg" alt="">
+        <img src="imgs/10.jpeg" alt="">
+    </div>
+
+
+
+</body>
+
+<script>
+
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+
+        subMenu.classList.toggle("mainmenuopen");
+
+    }
+
+</script>
+
+
+</html>
